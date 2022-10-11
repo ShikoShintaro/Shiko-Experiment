@@ -94,19 +94,19 @@ Partial Class Form1
 
     Private Sub btnSubmit_Click(sender As Object, e As EventArgs) Handles btnSubmit.Click
         
-        //Creates a Function uses: Dim
+        'Creates a Function uses: Dim
 
         Dim TB1 As String
         Dim TB2 As String
         Dim TB3 As String
 
-        //Calling the function of the string and calling the TB1 to the textbox
+        'Calling the function of the string and calling the TB1 to the textbox
 
         TB1 = Fav1.Text
         TB2 = Fav2.Text
         TB3 = Fav3.Text
 
-        //From the (TB1) textbox to the msg box
+        'From the (TB1) textbox to the msg box
 
         MsgBox("So this is your Favorite? " & TB1 & ", " & TB2 & ", " & TB3 & ", " & " how cute is that isnt it?")
 
